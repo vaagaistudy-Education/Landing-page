@@ -52,9 +52,11 @@
   padding: 0;
   scroll-behavior: smooth;
 }
+
 script {
   display: none !important;
 }
+
 body {
   margin: 0;
   background-color: var(--bg);
@@ -73,7 +75,6 @@ body {
   flex-direction: column;
   box-sizing: border-box;
 }
-
 
 .vaagai-container {
   width: 100%;
@@ -107,7 +108,6 @@ body {
   animation: pulseSlow 8s infinite ease-in-out;
 }
 
- */
 .hover-lift {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -133,7 +133,6 @@ body {
   background: var(--bg);
 }
 
-
 .bg-watermark-container {
   position: fixed;
   top: 0;
@@ -152,7 +151,6 @@ body {
   height: auto;
   object-fit: contain;
 }
-
 
 .vaagai-header {
   position: sticky;
@@ -366,7 +364,6 @@ body {
   .hero-grid { grid-template-columns: 1fr; }
 }
 
-/* FEATURES SECTION */
 .features-section {
   padding: 110px 0;
   background: var(--bg);
@@ -531,7 +528,6 @@ body {
   .vision-grid { grid-template-columns: 1fr; }
 }
 
-
 .about-section {
   padding: 90px 0;
   background: var(--code-bg);
@@ -580,7 +576,6 @@ body {
   color: var(--accent);
   text-decoration: none;
 }
-
 
 .disclaimer-page {
   padding: 80px 0;
@@ -697,7 +692,6 @@ body {
   .about-box { padding: 30px; }
   .journey-box, .approach-box { padding: 30px; }
 }
-
 
 .vaagai-footer {
   background: #0f172a;
